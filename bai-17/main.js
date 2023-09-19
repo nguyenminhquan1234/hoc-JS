@@ -1,17 +1,46 @@
-/** Toan tu gan
- 
-Toan tu      vi du        tuong duong
-=            x = y        x = y 
-+=           x += y       x = x + y
--=           x -= y       x = x - y
-*=           x *= y       x = x * y
-/=           x /= y       x = x / y
-**=          x **= y      x = x ** y
+// Number typeyou
+var a = 1;
+var b = 2;
+var c = 3;
 
- */
+//String type
+var fullName = 'Minh Quan'
 
-var a = 10;
+// Boolean type
+var isSuccess = true;
 
-a += 2;
+// Undefined type
+var age;
 
-console.log(a);
+// Null
+var isNull = null; // nothing
+
+// Symbol
+var id = Symbol('id'); // unique
+var id2 = Symbol('id'); // unique
+
+// Function
+
+var myFunction = function() {
+    alert('Hi. Xin chao cac ban!');
+}
+
+// Object type 
+
+var myObject = {
+    name: 'Minh Quan',
+    age: 15,
+    aderess: 'Ha Noi',
+    myFunction: function () {
+
+    }
+
+};
+
+var myArray = [
+    'Javascrip',
+    'PHP',
+    'Ruby'
+];
+
+console.log(typeof myArray)  
